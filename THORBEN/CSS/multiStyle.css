@@ -66,6 +66,8 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
             font-size: 550%;
        }
     }
+
+
 /* BACKGROUND STYLING */
 body, html {
     height: 100%;
@@ -87,11 +89,18 @@ body, html {
 /* INDEX LOGO STYLING */
 
 .indexLogo {
-    max-width: 100%;
-    height: auto;
-    position: relative;
-    margin-left: 15%;
-    /*overflow: auto; */
+    display: block;
+    height: 200px;
+    width: 500px;
+    line-height: 100px;
+    
+    -moz-border-radius: 100px;
+    border-radius: 500px;
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2em;
 }
 
 .welcomeText {
@@ -99,7 +108,7 @@ body, html {
     margin-bottom: 2%;
     text-align: center;
     font-weight: bold;
-    margin-top: 4%;
+    margin-top: 0%;
 }
 /* NORMAL CSS STYLING */ 
 .logo h2 {
@@ -222,8 +231,4 @@ body, html {
     display: block;
     margin-right: auto;
     margin-left: auto;
-}
-
-#roadLocation {
-    
 }
