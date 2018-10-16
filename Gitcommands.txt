@@ -1,0 +1,44 @@
+git config --global user.name "name"
+git config --global user.email "email"
+git config --list
+//STAGING AREA
+git add -A
+git add .gitignore
+git reset
+git status
+git commit -m "Hello World"
+git log
+
+ls
+cd navn
+ls -la
+git init
+rm -rf .git
+git init
+ls -la
+
+
+
+git status
+touch .gitignore
+	//FOR TEXTFILE
+	.DS_Store
+	.project
+	*.pyc
+git status (.gitignore should now be red)
+
+git add -A
+git status
+
+ls -la
+git ignore
+git add -A
+git status
+
+cd ..
+ls
+cd navn
+ls -la
+git clone link
+git remote -v
+git branch -a
