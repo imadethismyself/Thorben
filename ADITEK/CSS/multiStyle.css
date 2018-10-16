@@ -1,0 +1,229 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address,big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul,li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption,footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure,footer,header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul{list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: "";content: none;}table {border-collapse: collapse;border-spacing: 0;}
+<style>
+
+/* VARIOUS MEDIA SETTINGS */ 
+    
+    /* Mobil size */
+   @media (max-width: 500px) { 
+         .topNavigator a{
+           float: left;
+       }
+       
+       .welcomeText {
+           margin-left: auto;
+            font-size: 300%;
+       }
+    } 	
+      
+
+    /* Pad/Tablet in regular size */
+    @media (min-width: 500px){  
+        .banner{
+            display:flex;
+        }
+        
+        .shoppingContainer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .carTrailerBox{
+            box-sizing: border-box;
+            flex-basis: 50%;
+        } 
+        .topNavigator a{
+           float: right;
+       }
+        .welcomeText {
+           margin-left: 30%;
+            font-size: 300%;
+       }
+    }
+    /* Pad/Tablet in landscape modus */
+    @media (min-width: 1024px){
+        .carTrailerBox{
+            flex-basis: 33.3%;
+        }
+        .topNavigator a{
+           float: right;
+       }
+        .welcomeText {
+           margin-left: 50%;
+            font-size: 400%;
+       }
+    }  
+
+    /* Size for desktop */
+   @media (min-width: 1240px){
+        .carTrailerBox{
+            flex-basis: 25%;
+        }
+       .topNavigator a{
+           float: right;
+       }
+       .welcomeText {
+           margin-left: 50%;
+            font-size: 550%;
+       }
+    }
+/* BACKGROUND STYLING */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(indexbackground.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* INDEX LOGO STYLING */
+
+.indexLogo {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    margin-left: 15%;
+    /*overflow: auto; */
+}
+
+.welcomeText {
+    color: white;
+    margin-bottom: 2%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4%;
+}
+/* NORMAL CSS STYLING */ 
+.logo h2 {
+    font-family: 'Spectral SC', serif;
+    text-align: center;
+    position: absolute;
+    margin-top: 30%;
+}
+
+#logo-mobile{
+    height: 150px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+} 
+
+.topNavigator {
+    overflow: hidden;
+    color: rgb(232, 48, 44);
+    padding: 2rem;
+    
+}
+
+.topNavigator a {
+    color: #F2F2F2;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;
+    height: 30px;
+    width: 120px;;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+
+.topNavigator a:hover {
+    background-color: #FCF406;
+    color: black;
+}
+
+.topNavigator a.active {
+    background-color: #F98604;
+    color: white;
+}
+
+.shoppingContainer {
+    display: flax;
+    flex-wrap: wrap;
+}
+
+.carTrailerBox {
+    background-color: rgb(112, 128, 144, 0.3);
+    color: rgb(232, 48, 44);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.carTrailerTitle {
+    font-family: 'Spectral SC', serif;
+    text-align:center;
+    font-size: 1.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.carTrailerPicture {
+    width: 100%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.btn {
+    background-color: #F98604;
+    color: rgb(1, 1, 1);
+    text-transform: capitalize;
+    padding: 1.1rem;
+    border: 1px solid;
+    width: 100%;
+    display: inline-block;
+}
+
+.btn:hover{
+        background-color: #FCF406;
+}
+
+.info-box-container-2 {
+    display: flax;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.info-box-2 {
+    background-color: rgb(112, 128, 144, 0.9);
+    color: rgb(232, 48, 44);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pressPicture {
+    width: 100%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+
+.to-infopage {
+    height: 150px;
+    width: 10%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30%;
+    background-color: white;
+}
+
+.roadLocation {
+    border-radius: 8px;
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#roadLocation {
+    
+}
